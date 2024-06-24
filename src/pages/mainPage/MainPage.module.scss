@@ -1,0 +1,6 @@
+.main {
+    @apply w-full h-[100vh] overflow-y-auto;
+    &-body {
+        @apply w-full mx-auto pt-24 overflow-y-auto md:max-w-[70vw];
+    }
+}
