@@ -1,0 +1,19 @@
+.navBar {
+    @apply bg-[#272727] w-full p-3 flex flex-row fixed;
+
+    &-input {
+        @apply min-w-[100px] max-w-[200px] h-[34px] rounded-md py-1 px-2 bg-inherit border-2 border-zinc-700 resize-none outline-none focus:border-zinc-500;
+    }
+
+    &-title {
+        @apply my-auto py-1 px-2 truncate;
+    }
+
+    &-button {
+        @apply min-w-[100px] max-w-[200px] text-start h-[34px] border-[2px] border-[#272727] rounded-md hover:bg-[#383838] hover:border-[#383838] transition-all duration-300;
+    }
+
+    &-img {
+        @apply w-10 mx-2 p-2 cursor-pointer rounded-md hover:bg-[#383838] transition-all duration-300 md:hidden;
+    }
+}

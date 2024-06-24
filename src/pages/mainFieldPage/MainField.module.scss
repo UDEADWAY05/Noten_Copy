@@ -1,0 +1,17 @@
+.MainField {
+    @apply w-full h-[100vh] overflow-y-auto;
+
+    &-body {
+        @apply w-full mx-auto pt-24 overflow-y-auto md:max-w-[70vw];
+    }
+
+    &-title {
+        @apply m-5 text-4xl ;
+    }
+    &-describe {
+        @apply text-base text-[]
+    }
+    &-textArea {
+        @apply w-[70vw] text-5xl bg-[#1f1f1f] font-bold break-words outline-none text-white resize-none;
+    }
+}
